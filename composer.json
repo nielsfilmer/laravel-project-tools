@@ -1,0 +1,25 @@
+{
+    "name": "nielsfilmer/laravel-project-tools",
+    "description": "A collection of tools useful in Laravel projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Filmer",
+            "email": "n.filmer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.*",
+        "illuminate/http": "5.*",
+        "illuminate/bus": "5.*",
+        "illuminate/filesystem": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NielsFilmer\\": "src/NielsFilmer"
+        }
+    },
+    "minimum-stability": "stable"
+}
